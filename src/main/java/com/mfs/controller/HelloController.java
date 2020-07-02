@@ -7,10 +7,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HelloController {
 
+    @RequestMapping(value = "/redirect")
+    public String sendredirect(){
+        return "redirect:/";
+    }
     @RequestMapping(value = "/hello")
     @ResponseBody
     public String sayhello(){
-        return "Heeeeeeeeello";
+        return "hello";
     }
 
 }
