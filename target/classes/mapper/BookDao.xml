@@ -7,6 +7,7 @@
     <select id="queryById" resultType="Book" parameterType="long">
         <!-- 具体的sql -->
         SELECT
+
         book_id,
         name,
         number

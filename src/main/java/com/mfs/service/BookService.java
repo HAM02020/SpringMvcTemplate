@@ -2,9 +2,13 @@ package com.mfs.service;
 
 import com.mfs.dto.AppointExecution;
 import com.mfs.entity.Book;
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
+@Repository
 public interface BookService {
     /**
      * 查询一本图书

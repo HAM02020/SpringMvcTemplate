@@ -2,9 +2,11 @@ package com.mfs.dao;
 
 import com.mfs.entity.Book;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public interface BookDao {
 
     /**
